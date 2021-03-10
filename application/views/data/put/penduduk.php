@@ -123,8 +123,11 @@
                     
                         <div class="form-group">
                             <label for="berlaku">Berlaku </label>
-                            <input type="text" class="form-control" id="berlaku" value="<?php echo $rows->berlaku;?>"placeholder="Enter Berlaku" name="berlaku" required readonly>
-                        </div>
+                            <select class="form-control" id="berlaku" name="berlaku" value="<?php echo $rows->berlaku;?>"  required readonly>
+                            <option value="seumur hidup">seumur hidup</option>
+
+                                </select>
+                                </div>
                         <div class="form-group">
                             <label for="gaji">Gaji </label>
                             <select class="form-control" id="gaji" name="gaji" value="<?php echo $rows->gaji;?>">
