@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 10 2021 14:08:47 GMT+0700 (Western Indonesia Time)
+------------------------------------------------------
+
+Modified files:
+* application/views/data/post/penduduk.php
+
+
+Created files:
+* .autogit/logs/log-10-2-2021-13-38-41.txt
+
+
+Deleted files:
+
+
+Renamed files:

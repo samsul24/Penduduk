@@ -62,13 +62,28 @@
                                         <option value="P">Perempuan</option>
                                 </select>
                         </div>
-                        <div class="form-group">
-                                <label for="alamat">Alamat :</label><br>
-                                Alamat :<input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat" style="width:100px" >
-                                <input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat"  >
-                                <input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat"  >
-                                <input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat"  >
-                        </div>
+                        <div class="form-group" style="display:inline-block;">
+                            <div class="form-group" style="display:inline-block;">
+                                <label for="alamat" style="width:73%;margin-left:px;">Alamat :</label>
+                                <input type="text" name="alamat" style="width:41%;margin-left:px;margin-right:150px;" class="form-control" id="alamat">
+                            </div> 
+                            <div class="form-group" style="display:inline-block;">
+                                <label for="alamat" style="width:73%;margin-left:-180px;">RT/RW :</label>
+                                <input type="text" name="alamat" style="width:41%;margin-left:-180px;margin-right:120px;" class="form-control" id="alamat">
+                            </div>
+                            <div class="form-group" style="display:inline-block;">
+                                <label for="alamat" style="width:73%;margin-left:-230px;">Kel/Desa :</label>
+                                <input type="text" name="alamat" style="width:41%;margin-left:-230px;margin-right:300px;" class="form-control" id="alamat">
+                                    
+                            </div>
+                            <div class="form-group" style="display:inline-block;margin-left:-300px;">
+                                <label for="alamat" style="width:73%;margin-left:px;margin-right:300px;">Kecamatan :</label>
+                                 <select class="form-control" id="alamat" name="alamat" >
+                                        <option value="L">Laki-laki</option>
+                                        <option value="P">Perempuan</option>
+                                </select>
+                            </div>
+                             </div>
                         <div class="form-group">
                                 <label for="agama">Agama :</label>
                                 <input type="text" class="form-control" id="agama" placeholder="agama"  name="agama"  >
