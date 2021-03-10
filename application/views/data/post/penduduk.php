@@ -68,26 +68,38 @@
                                 <input type="text" name="alamat" style="width:41%;margin-left:px;margin-right:150px;" class="form-control" id="alamat">
                             </div> 
                             <div class="form-group" style="display:inline-block;">
-                                <label for="alamat" style="width:73%;margin-left:-180px;">RT/RW :</label>
-                                <input type="text" name="alamat" style="width:41%;margin-left:-180px;margin-right:120px;" class="form-control" id="alamat">
+                                <label for="rt" style="width:73%;margin-left:-180px;">RT :</label>
+                                <input type="number" name="rt" style="width:41%;margin-left:-180px;margin-right:120px;" class="form-control" id="rt">
                             </div>
                             <div class="form-group" style="display:inline-block;">
-                                <label for="alamat" style="width:73%;margin-left:-230px;">Kel/Desa :</label>
-                                <input type="text" name="alamat" style="width:41%;margin-left:-230px;margin-right:300px;" class="form-control" id="alamat">
-                                    
+                                <label for="rw" style="width:73%;margin-left:-230px;">Rw :</label>
+                                <input type="number" name="rw" style="width:41%;margin-left:-230px;margin-right:180px;" class="form-control" id="rw">
                             </div>
-                            <div class="form-group" style="display:inline-block;margin-left:-300px;">
-                                <label for="alamat" style="width:73%;margin-left:px;margin-right:300px;">Kecamatan :</label>
-                                 <select class="form-control" id="alamat" name="alamat" >
-                                        <option value="L">Laki-laki</option>
-                                        <option value="P">Perempuan</option>
+                            </div>
+                            <div class="form-group" style="display:inline-block;margin-left:-280px;">
+                                <label for="kel_des" style="width:73%;margin-left:px;margin-right:100px;">Kel/Desa :</label>
+                                 <select class="form-control" id="kel_des" name="kel_des" >
+                                        <option value="Malang">Malang</option>
+                                        <option value="Surabaya">Surabaya</option>
                                 </select>
                             </div>
-                             </div>
+                            <div class="form-group" style="display:inline-block;margin-left:40px;">
+                                <label for="kecamatan" style="width:73%;margin-left:px;margin-right:200px;">Kecamatan :</label>
+                                 <select class="form-control" id="kecamatan" name="kecamatan" >
+                                        <option value="Malang">Malang</option>
+                                        <option value="Surabaya">Surabaya</option>
+                                </select>
+                            </div>
                         <div class="form-group">
                                 <label for="agama">Agama :</label>
-                                <input type="text" class="form-control" id="agama" placeholder="agama"  name="agama"  >
-                        </div>
+                                 <select class="form-control" id="agama" name="agama" >
+                                        <option value="Islam">Islam</option>
+                                        <option value="Kristen">Kristen</option>
+                                        <option value="Budha">Budha</option>
+                                        <option value="Katholik">Katholik</option>
+                                        <option value="Konghucu">Konghucu</option>
+                                </select>
+                            </div>
                         <div class="box-body">
                             <div class="form-group1">
                             <label for="sel1" >Status Perkawinan :</label>
@@ -108,7 +120,6 @@
                                         <option value="Wira-swasta">Wira-swasta</option>
                                         <option value="Pelajar/Mahasiswa">Pelajar/Mahasiswa</option>
                                 </select>
-                            </div>
                         </div>
                         <div class="form-group">
                             <label for="kewarganegaraan">Kewarganegaraan </label>
@@ -117,13 +128,21 @@
                     
                         <div class="form-group">
                             <label for="berlaku">Berlaku </label>
-                            <input type="text" class="form-control" id="berlaku" placeholder="Enter Berlaku" name="berlaku" required>
-                           
+                            <select class="form-control" id="berlaku" name="berlaku" >
+                                        <option value="seumur hidup">seumur hidup</option>
+                                      
+                                </select>
                         </div>
                         <div class="form-group">
                             <label for="gaji">Gaji </label>
-                            <input type="text" class="form-control" id="gaji" placeholder="Enter gaji" name="gaji" required>
-                           
+                            <select class="form-control" id="gaji" name="gaji" >
+                                        <option value="0 - 1.000.000">0 - 1.000.000</option>
+                                        <option value="1.000.000 - 2.000.000">1.000.000 - 2.000.000</option>
+                                        <option value="2.000.000 - 3.000.000">2.000.000 - 3.000.000</option>
+                                        <option value="3.000.000 - 4.000.000">3.000.000 - 4.000.000</option>
+                                        <option value="4.000.000 - 5.000.000">4.000.000 - 5.000.000</option>
+                                        <option value="6.000.000 keatas">6.000.000 keatas</option>
+                                </select>
                         </div>
                     
                         <!-- <div class="form-group">

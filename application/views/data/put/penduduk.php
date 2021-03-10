@@ -66,9 +66,31 @@
                                 <input type="text" class="form-control" id="alamat" value="<?php echo $rows->alamat;?>"placeholder="alamat"  name="alamat"  >
                         </div>
                         <div class="form-group">
-                                <label for="agama">Agama :</label>
-                                <input type="text" class="form-control" id="agama" value="<?php echo $rows->agama;?>"placeholder="agama"  name="agama"  >
+                                <label for="rt">Rt :</label>
+                                <input type="text" class="form-control" id="rt" value="<?php echo $rows->rt;?>"placeholder="rt"  name="rt"  >
                         </div>
+                        <div class="form-group">
+                                <label for="rw">Rw :</label>
+                                <input type="text" class="form-control" id="rw" value="<?php echo $rows->rw;?>"placeholder="rw"  name="rw"  >
+                        </div>
+                        <div class="form-group">
+                                <label for="kel_des">Kel/Desa :</label>
+                                <input type="text" class="form-control" id="kel_des" value="<?php echo $rows->kel_des;?>"placeholder="kel_des"  name="kel_des"  >
+                        </div>
+                        <div class="form-group">
+                                <label for="kecamatan">Kecamatan :</label>
+                                <input type="text" class="form-control" id="kecamatan" value="<?php echo $rows->kecamatan;?>"placeholder="kecamatan"  name="kecamatan"  >
+                        </div>
+                        <div class="form-group">
+                                <label for="agama">Agama :</label>
+                                <select class="form-control" id="agama" name="agama" value="<?php echo $rows->agama;?>">
+                                        <option value="Islam">Islam</option>
+                                        <option value="Kristen">Kristen</option>
+                                        <option value="Budha">Budha</option>
+                                        <option value="Katholik">Katholik</option>
+                                        <option value="Konghucu">Konghucu</option>
+                                </select>
+                             </div>
                         <div class="box-body">
                             <div class="form-group1">
                             <label for="sel1" >Status Perkawinan :</label>
@@ -79,7 +101,6 @@
                             </div>
                         </div>
                         <div class="box-body">
-
                         <div class="form-group">
                             <label for="pekerjaan">Pekerjaan </label>
                             <select class="form-control" id="pekerjaan" name="pekerjaan" value="<?php echo $rows->pekerjaan;?>">
@@ -106,8 +127,15 @@
                         </div>
                         <div class="form-group">
                             <label for="gaji">Gaji </label>
-                            <input type="text" class="form-control" id="gaji" value="<?php echo $rows->gaji;?>"placeholder="Enter gaji" name="berlaku" required >
-                        </div>
+                            <select class="form-control" id="gaji" name="gaji" value="<?php echo $rows->gaji;?>">
+                            <option value="0 - 1.000.000">0 - 1.000.000</option>
+                                        <option value="1.000.000 - 2.000.000">1.000.000 - 2.000.000</option>
+                                        <option value="2.000.000 - 3.000.000">2.000.000 - 3.000.000</option>
+                                        <option value="3.000.000 - 4.000.000">3.000.000 - 4.000.000</option>
+                                        <option value="4.000.000 - 5.000.000">4.000.000 - 5.000.000</option>
+                                        <option value="6.000.000 keatas">6.000.000 keatas</option>
+                                </select>
+                                 </div>
                             <div class="form-group">
                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
                                     Update

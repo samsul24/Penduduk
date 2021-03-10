@@ -99,7 +99,7 @@
                         <td><?php echo $rows->nama ; ?></td>
                         <td><?php echo $rows->ttl; ?></td>
                         <td><?php echo $rows->jenis_kelamin; ?></td>
-                        <td><?php echo $rows->alamat; ?></td>
+                        <td><?php echo $rows->alamat; ?>, RT <?php echo $rows->rt; ?>/ RW <?php echo $rows->rw; ?>, Kel/Desa <?php echo $rows->kel_des; ?>, Kec. <?php echo $rows->kecamatan; ?></td>
                         <td><?php echo $rows->agama; ?></td>
                         <td><?php echo $rows->status_perkawinan; ?></td>
                         <td><?php echo $rows->pekerjaan; ?></td>
