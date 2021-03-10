@@ -63,7 +63,10 @@
                                 </select>
                         </div>
                         <div class="form-group">
-                                <label for="alamat">Alamat :</label>
+                                <label for="alamat">Alamat :</label><br>
+                                Alamat :<input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat" style="width:100px" >
+                                <input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat"  >
+                                <input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat"  >
                                 <input type="text" class="form-control" id="alamat" placeholder="alamat"  name="alamat"  >
                         </div>
                         <div class="form-group">
