@@ -103,6 +103,15 @@
             </a>
           </li>
           
+          <li class="nav-item">
+           <a href="<?php echo site_url(); ?>keluhanclient" class="nav-link" id="navHome">&nbsp;
+              <i class="ion-android-alert"></i>
+              <p>
+              &nbsp;&nbsp;&nbsp;Keluhan
+              </p>
+            </a>
+          </li>
+          
           <li class="nav-item" style="background:rgba(52,58,64,255); ">
            <a href="<?= base_url().'login/out' ?>" onClick="return confirm('Logout sekarang ??');" class="nav-link" id="navHome">
               <i class="nav-icon fas fa-sign-out-alt" style=color:white;></i>

@@ -61,6 +61,7 @@ class Penduduk extends REST_Controller
     }
     function index_put()
     {
+        
         $id = $this->put('id_penduduk');
         $data = array(
             'no_kk'                 => $this->put('no_kk'),
